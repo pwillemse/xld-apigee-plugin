@@ -175,7 +175,7 @@ task pluginVersion(type: WriteProperties) {
 // Optional: when not using master as mainline the correct branch needs to be included in release branches 
 semanticRelease {
     releaseBranches {
-        include 'main'
+      include 'main'
     }
 }
 
